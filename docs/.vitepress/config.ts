@@ -10,14 +10,17 @@ export default defineConfig({
   title: "海绵宝宝的博客",
   titleTemplate: false,
   head: [
-    ["link", { rel: "icon", href: "/spongebob.svg" }],
+    [
+      'link',
+      { rel: 'icon', href: './spongebob.svg',crossorigin:"" }
+    ]
     // would render: <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   ],
   lastUpdated: true,
   description: "vitePress blog vite vue3 typescript",
   themeConfig: {
     siteTitle: "Wss Custom",
-    logo: "/spongebob.svg",
+    logo: "./spongebob.svg",
     socialLinks: [
       {
         icon: "github",
