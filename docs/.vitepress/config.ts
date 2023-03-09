@@ -6,7 +6,7 @@ import { footer } from "./footer";
 import { docFooter } from "./docFooter";
 // https://vitepress.vuejs.org/config/app-configs
 export default defineConfig({
-  base:"docs",
+  base:"/docs/",
   title: "海绵宝宝的博客",
   titleTemplate: false,
   head: [
