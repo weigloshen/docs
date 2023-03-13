@@ -1,6 +1,6 @@
 {
     "index_name": "SpongeBob",
-    "start_urls": ["https://zhouyue8.github.io/docs/"],
+    "start_urls": ["https://weigloshen.github.io/docs/"],
     "rateLimit": 8,
     "maxDepth": 10,
     "selectors": {
