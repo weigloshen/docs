@@ -24,7 +24,7 @@ export default defineConfig({
     socialLinks: [
       {
         icon: "github",
-        link: "https://github.com/ZhouYue8/myvitepress",
+        link: "https://github.com/weigloshen/docs",
       },
       { icon: "twitter", link: "..." },
     ],
