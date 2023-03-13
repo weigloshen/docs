@@ -1,5 +1,9 @@
 import { DefaultTheme } from "vitepress";
 import HTMLitem from "../front/html";
+import JavascriptItem from "../front/javascript"
+import Vue2Item from "../front/vue2";
+import Vue3Item from "../front/vue3";
+import RustItem from "../rust/md"
 export const sidebar: DefaultTheme.Sidebar = {
   "/front/": [
     {
@@ -14,6 +18,9 @@ export const sidebar: DefaultTheme.Sidebar = {
           text: "CSS",
           link: "/front/css/",
         },
+        JavascriptItem,
+        Vue2Item,
+        Vue3Item
       ],
     },
   ],
@@ -29,4 +36,14 @@ export const sidebar: DefaultTheme.Sidebar = {
       ],
     },
   ],
+  "/rust/":[
+    {
+      text: "前言",
+      items:[]
+    },
+    {
+      text: "Rust基础学习",
+      items:RustItem
+    },
+  ]
 };

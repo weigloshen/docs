@@ -3,6 +3,8 @@ export const nav = [
   { text: "😂Git学习", link: "/git/" },
   {
     text: "其他知识",
-    items: [],
+    items: [
+      { text: "rust", link: "/rust/" },
+    ],
   },
 ];

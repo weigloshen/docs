@@ -16,4 +16,4 @@
 - `initial-scale` ：初始缩放比例
 - `maximum-scale` ：最大缩放比例
 - `minimum-scale` ：最小缩放比例
-- `user-scalable` ：是否允许用户缩放(yes/no）
+- `user-scalable` ：是否允许用户缩放(yes/no)
