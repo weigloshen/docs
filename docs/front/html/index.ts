@@ -2,6 +2,10 @@ export default {
   text: "HTML",
   items: [
     {
+      text: "BFC",
+      link: "/front/html/md/bfc.md",
+    },
+    {
       text: "src和href的区别",
       link: "/front/html/md/src和href的区别.md",
     },
